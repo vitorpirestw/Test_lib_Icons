@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79B3E4E1257E7B6E00522AEA /* NatDS_Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3E4E0257E7B6E00522AEA /* NatDS_Icons.swift */; };
+		79B3E4E1257E7B6E00522AEA /* Test_lib_Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3E4E0257E7B6E00522AEA /* Test_lib_Icons.swift */; };
+		79B3E500257E9DF700522AEA /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3E4FF257E9DF700522AEA /* IconView.swift */; };
+		79B3E503257E9E3500522AEA /* UIFont+Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3E502257E9E3500522AEA /* UIFont+Icon.swift */; };
+		79B3E509257E9E6200522AEA /* FontIconStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3E508257E9E6200522AEA /* FontIconStyle.swift */; };
+		79B3E50C257E9E8300522AEA /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3E50B257E9E8300522AEA /* FontStyle.swift */; };
+		79B3E50F257E9EB400522AEA /* AssetsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3E50E257E9EB400522AEA /* AssetsHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		79B3E4DD257E7B6E00522AEA /* libNatDS-Icons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNatDS-Icons.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79B3E4E0257E7B6E00522AEA /* NatDS_Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatDS_Icons.swift; sourceTree = "<group>"; };
+		79B3E4DD257E7B6E00522AEA /* libTest_lib_Icons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTest_lib_Icons.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B3E4E0257E7B6E00522AEA /* Test_lib_Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_lib_Icons.swift; sourceTree = "<group>"; };
+		79B3E4FF257E9DF700522AEA /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		79B3E502257E9E3500522AEA /* UIFont+Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Icon.swift"; sourceTree = "<group>"; };
+		79B3E508257E9E6200522AEA /* FontIconStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontIconStyle.swift; sourceTree = "<group>"; };
+		79B3E50B257E9E8300522AEA /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		79B3E50E257E9EB400522AEA /* AssetsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +51,7 @@
 		79B3E4D4257E7B6E00522AEA = {
 			isa = PBXGroup;
 			children = (
-				79B3E4DF257E7B6E00522AEA /* NatDS-Icons */,
+				79B3E4DF257E7B6E00522AEA /* Test_lib_Icons */,
 				79B3E4DE257E7B6E00522AEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +59,30 @@
 		79B3E4DE257E7B6E00522AEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79B3E4DD257E7B6E00522AEA /* libNatDS-Icons.a */,
+				79B3E4DD257E7B6E00522AEA /* libTest_lib_Icons.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79B3E4DF257E7B6E00522AEA /* NatDS-Icons */ = {
+		79B3E4DF257E7B6E00522AEA /* Test_lib_Icons */ = {
 			isa = PBXGroup;
 			children = (
-				79B3E4E0257E7B6E00522AEA /* NatDS_Icons.swift */,
+				79B3E4E0257E7B6E00522AEA /* Test_lib_Icons.swift */,
+				79B3E4FF257E9DF700522AEA /* IconView.swift */,
+				79B3E502257E9E3500522AEA /* UIFont+Icon.swift */,
+				79B3E508257E9E6200522AEA /* FontIconStyle.swift */,
+				79B3E50E257E9EB400522AEA /* AssetsHelper.swift */,
+				79B3E50B257E9E8300522AEA /* FontStyle.swift */,
 			);
-			path = "NatDS-Icons";
+			path = Test_lib_Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79B3E4DC257E7B6E00522AEA /* NatDS-Icons */ = {
+		79B3E4DC257E7B6E00522AEA /* Test_lib_Icons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79B3E4E4257E7B6E00522AEA /* Build configuration list for PBXNativeTarget "NatDS-Icons" */;
+			buildConfigurationList = 79B3E4E4257E7B6E00522AEA /* Build configuration list for PBXNativeTarget "Test_lib_Icons" */;
 			buildPhases = (
 				79B3E4D9257E7B6E00522AEA /* Sources */,
 				79B3E4DA257E7B6E00522AEA /* Frameworks */,
@@ -77,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = "NatDS-Icons";
+			name = Test_lib_Icons;
 			productName = "NatDS-Icons";
-			productReference = 79B3E4DD257E7B6E00522AEA /* libNatDS-Icons.a */;
+			productReference = 79B3E4DD257E7B6E00522AEA /* libTest_lib_Icons.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 79B3E4D8257E7B6E00522AEA /* Build configuration list for PBXProject "NatDS-Icons" */;
+			buildConfigurationList = 79B3E4D8257E7B6E00522AEA /* Build configuration list for PBXProject "Test_lib_Icons" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79B3E4DC257E7B6E00522AEA /* NatDS-Icons */,
+				79B3E4DC257E7B6E00522AEA /* Test_lib_Icons */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +134,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79B3E4E1257E7B6E00522AEA /* NatDS_Icons.swift in Sources */,
+				79B3E50F257E9EB400522AEA /* AssetsHelper.swift in Sources */,
+				79B3E503257E9E3500522AEA /* UIFont+Icon.swift in Sources */,
+				79B3E509257E9E6200522AEA /* FontIconStyle.swift in Sources */,
+				79B3E500257E9DF700522AEA /* IconView.swift in Sources */,
+				79B3E4E1257E7B6E00522AEA /* Test_lib_Icons.swift in Sources */,
+				79B3E50C257E9E8300522AEA /* FontStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -232,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -269,7 +289,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79B3E4D8257E7B6E00522AEA /* Build configuration list for PBXProject "NatDS-Icons" */ = {
+		79B3E4D8257E7B6E00522AEA /* Build configuration list for PBXProject "Test_lib_Icons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79B3E4E2257E7B6E00522AEA /* Debug */,
@@ -278,7 +298,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79B3E4E4257E7B6E00522AEA /* Build configuration list for PBXNativeTarget "NatDS-Icons" */ = {
+		79B3E4E4257E7B6E00522AEA /* Build configuration list for PBXNativeTarget "Test_lib_Icons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79B3E4E5257E7B6E00522AEA /* Debug */,
