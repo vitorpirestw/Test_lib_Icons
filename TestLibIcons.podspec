@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://EXAMPLE/TestLibIcons"
   spec.license      = "ISC"
   spec.author             = { "Vitor Pires" => "vitor.pires@thoughtworks.com" }
-  spec.source       = { :git => "https://github.com/vitorpirestw/Test_lib_Icons.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/vitorpirestw/Test_lib_Icons.git", :tag => spec.version }
   spec.source_files  = 'Test_lib_icons/**/*'
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = '5.0'
