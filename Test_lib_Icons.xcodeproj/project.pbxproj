@@ -93,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				79B54914258A3B8000CA2E20 /* natds-icons-ios.ttf */,
-				79B5491E258A408D00CA2E20 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -144,6 +143,7 @@
 		79B5491D258A408D00CA2E20 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				79B5491E258A408D00CA2E20 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";

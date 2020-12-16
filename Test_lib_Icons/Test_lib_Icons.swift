@@ -1,9 +1,5 @@
-public func returnIconView(icon: Icon) -> IconView {
-    let iconView = IconView()
-    iconView.icon = icon
-
-    return iconView
-
+public func getUnicode(icon: Icon) -> String {
+    icon.unicode
 }
 
 public enum Icon: String, CaseIterable {
