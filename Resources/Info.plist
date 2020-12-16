@@ -20,5 +20,10 @@
 	<string>1</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>natds-icons-ios.ttf</string>
+		<string></string>
+	</array>
 </dict>
 </plist>
