@@ -92,7 +92,7 @@
 		7940A01925881B840017D05F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				79B54913258A3B3600CA2E20 /* Fonts */,
+				79B54914258A3B8000CA2E20 /* natds-icons-ios.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -138,14 +138,6 @@
 				79B548D82588E96500CA2E20 /* Info.plist */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		79B54913258A3B3600CA2E20 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				79B54914258A3B8000CA2E20 /* natds-icons-ios.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		79B5491D258A408D00CA2E20 /* Resources */ = {
