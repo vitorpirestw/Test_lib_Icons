@@ -126,7 +126,7 @@
 				79B3E508257E9E6200522AEA /* FontIconStyle.swift */,
 				79B3E50E257E9EB400522AEA /* AssetsHelper.swift */,
 				79B3E50B257E9E8300522AEA /* FontStyle.swift */,
-				7940A01925881B840017D05F /* Resources */,
+				79B54A3D258A5A6900CA2E20 /* Sources */,
 			);
 			path = Test_lib_Icons;
 			sourceTree = "<group>";
@@ -154,6 +154,14 @@
 				79B5491E258A408D00CA2E20 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		79B54A3D258A5A6900CA2E20 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7940A01925881B840017D05F /* Resources */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
