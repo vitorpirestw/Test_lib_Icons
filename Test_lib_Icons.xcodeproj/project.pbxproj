@@ -101,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				79B3E4DF257E7B6E00522AEA /* Test_lib_Icons */,
+				79B54A3D258A5A6900CA2E20 /* Sources */,
 				79B548D52588E96500CA2E20 /* Tests */,
 				79B5491D258A408D00CA2E20 /* Resources */,
 				79B3E4DE257E7B6E00522AEA /* Products */,
@@ -126,7 +127,6 @@
 				79B3E508257E9E6200522AEA /* FontIconStyle.swift */,
 				79B3E50E257E9EB400522AEA /* AssetsHelper.swift */,
 				79B3E50B257E9E8300522AEA /* FontStyle.swift */,
-				79B54A3D258A5A6900CA2E20 /* Sources */,
 			);
 			path = Test_lib_Icons;
 			sourceTree = "<group>";
